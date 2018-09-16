@@ -1,0 +1,21 @@
+<header class="page-header">
+  <div class="logo">
+    <a href="{{ "/" | relative_url }}">CAMILA ALVES</a
+  </div>
+
+  {% assign navurl = page.url | remove: 'index.html' | remove: '.html' %}
+
+  <nav>
+    <ol>
+      {% for item in site.nav_pages %}
+        <li>
+        {% if navurl == item.url %}
+          <a class="active" href="{{ item.url | relative_url }}">{{item.title}}</a>
+        {% else %}
+          <a href="{{ item.url | relative_url }}">{{item.title}}</a>
+        {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  </nav>
+</header>

@@ -1,0 +1,71 @@
+@import "variables"
+
+.page-home
+  max-width: $page-max-width
+
+  margin-left: 20px
+  margin-right: 20px
+
+  @media screen and (min-width: $small-point)
+    margin-left: 20px
+    margin-right: 20px
+
+  @media screen and (min-width: $medium-point)
+    margin-left: calc(100vw - 95%)
+    margin-right: calc(100vw - 95%)
+
+  @media screen and (min-width: $large-point)
+    margin-left: calc(100vw - 85%)
+    margin-right: calc(100vw - 85%)
+
+  display: flex
+  flex-wrap: wrap
+
+  @media screen and (max-width: $medium-point - 1px)
+    justify-content: center
+
+  .work-box
+    display: block
+    margin-bottom: 40px
+
+    > a
+      display: block
+
+    // 2 per row
+    @media screen and (min-width: $small-point)
+      $width: 48%
+      width: $width
+      margin-right: 100% - ($width * 2)
+
+      @media screen and (max-width: $medium-point - 1px)
+        &:nth-child(2n)
+          margin-right: 0
+
+    // 3 per row
+    @media screen and (min-width: $medium-point)
+      flex: 1 0 auto
+      $width: 30.5%
+      width: $width
+      margin-right: (100% - ($width * 3)) /2
+
+      &:nth-child(3n)
+        margin-right: 0
+
+    img
+      max-width: 100%
+      height: auto
+      opacity: 1
+      transition: opacity .2s
+      backface-visibility: hidden
+
+      &:hover
+        opacity: 0.7
+
+    figcaption
+      text-align: center
+      padding: 10px 0
+      color: darken(#97999b, 20%)
+      letter-spacing: 1px
+      font-weight: 200
+      font-size: 14px
+

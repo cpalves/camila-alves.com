@@ -4,7 +4,7 @@ layout: default
 
 <div class="page-contact">
   <img
-    src="https://via.placeholder.com/300x300"
+    src=assets/img/profile.jpg
   />
 
   <p class="drop-it-you">Drop me a line :)</p>

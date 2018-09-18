@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Matter of shape
-cover_image: assets/img/work/lettering-cover-square.jpg
+cover_image: assets/img/work/matterofshape-cover-square.jpg
 sequence: 6
 ---
 

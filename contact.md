@@ -4,7 +4,7 @@ layout: default
 
 <div class="page-contact">
   <img
-    src=="{{ "/assets/img/profile.jpg" | relative_url }}" 
+    src="{{ "/assets/img/profile.jpg" | relative_url }}" 
   />
 
   <p class="drop-it-you">Drop me a line :)</p>

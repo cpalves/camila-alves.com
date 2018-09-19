@@ -2,7 +2,7 @@
 layout: work
 title: Matter of shape
 cover_image: assets/img/work/matterofshape-cover-square.jpg
-sequence: 1
+sequence: 3
 ---
 
 <h1>Matter of shape</h1>

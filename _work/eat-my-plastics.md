@@ -22,5 +22,5 @@ sequence: 4
 </figure>
 
 <figure>
-  <img src="{{ "/assets/img/work/emp/emp2.png" | relative_url }}" class="vertical-picture" />
+  <img src="{{ "/assets/img/work/emp/emp3.png" | relative_url }}" class="vertical-picture" />
 </figure>

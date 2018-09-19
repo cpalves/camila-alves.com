@@ -2,7 +2,7 @@
 layout: work
 title: Essence
 cover_image: assets/img/work/essence-cover-square.jpg
-sequence: 2
+sequence: 3
 ---
 
 <h1>Essence</h1>

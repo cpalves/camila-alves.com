@@ -2,7 +2,7 @@
 layout: work
 title: Lettering
 cover_image: assets/img/work/lettering-cover-square.jpg
-sequence: 1
+sequence: 6
 ---
 
 <h1>Lettering</h1>

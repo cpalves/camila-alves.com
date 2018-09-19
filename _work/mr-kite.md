@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Mr. Kite
-cover_image: assets/img/work/matterofshape-cover-square.jpg
+cover_image: assets/img/work/mrkite-cover-square.jpg
 sequence: 5
 ---
 

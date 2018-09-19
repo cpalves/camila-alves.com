@@ -1,6 +1,6 @@
 ---
 layout: work
-title: Matter of shape
+title: Lettering
 cover_image: assets/img/work/lettering-cover-square.jpg
 sequence: 1
 ---

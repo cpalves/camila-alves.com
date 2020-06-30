@@ -2,7 +2,7 @@
 layout: work
 title: Mr. Kite
 cover_image: assets/img/work/mrkite-cover-square.jpg
-sequence: 5
+sequence: 7
 ---
 
 <h1>Mr. Kite</h1>

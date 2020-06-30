@@ -2,7 +2,7 @@
 layout: work
 title: The art of beauty
 cover_image: assets/img/work/artofbeauty-cover-square.jpg
-sequence: 2
+sequence: 5
 ---
 
 <h1>The Art of Beauty</h1>

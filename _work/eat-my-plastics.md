@@ -2,7 +2,7 @@
 layout: work
 title: Eat my plastics
 cover_image: assets/img/work/eatmyplastics-cover-square.jpg
-sequence: 4
+sequence: 3
 ---
 
 <h1>Eat My Plastics</h1>

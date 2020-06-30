@@ -21,9 +21,6 @@
   display: flex
   flex-wrap: wrap
 
-  @media screen and (max-width: $medium-point - 1px)
-    justify-content: center
-
   .work-box
     display: block
     margin-bottom: 40px
@@ -43,7 +40,6 @@
 
     // 3 per row
     @media screen and (min-width: $medium-point)
-      flex: 1 0 auto
       $width: 30.5%
       width: $width
       margin-right: (100% - ($width * 3)) /2
